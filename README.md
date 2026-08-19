@@ -25,18 +25,6 @@ AI Interview Coach is a Streamlit prototype that helps candidates practise commo
 | Streamlit | Python web-app framework | Builds the interface | Project addition |
 | streamlit-webrtc | Browser video component | Connects webcam video to Streamlit | Project addition |
 
-## 📚 Tutor alignment
-
-The video pipeline follows the supplied class-notebook pattern:
-
-```python
-model = YOLO("yolo11n.pt")
-results = model(frame)
-annotated_frame = results[0].plot()
-```
-
-The tutor used `cv2.VideoCapture(0)` and `cv2.imshow()` locally. A deployed Streamlit app cannot open that desktop window, so `streamlit-webrtc` sends browser frames into the same YOLO/OpenCV processing pattern. The tutor did not provide Streamlit, emotion, gesture, or answer-scoring exercises, so those features are clearly identified as additions.
-
 ## 🛡️ Limitation
 
 The video feature estimates visible expressions, gestures, and camera visibility. It cannot know true feelings, diagnose nervousness, measure personality, or make hiring decisions.
@@ -62,7 +50,6 @@ YOLO downloads `yolo11n.pt` automatically the first time, so internet is needed 
 - `video_utils.py` — YOLO, OpenCV, face, and hand analysis
 - `questions.csv` — interview question bank
 - `requirements.txt` — required libraries
-- `TUTOR_CODE_MAP.md` — tutor code versus project additions
 - `DEMO_SCRIPT.txt` — presentation guide
 
 
