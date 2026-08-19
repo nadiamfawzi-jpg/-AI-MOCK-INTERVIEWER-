@@ -137,4 +137,4 @@ def analyze_uploaded_video(video_path, output_path, max_frames=900):
     else:
         cue_level = "Calm visible delivery"
     cue_score = round(face_percentage * 0.6 + person_percentage * 0.4)
-    return {"frames": frame_count, "person_percentage": person_percentage, "face_percentage": face_percentage, "main_expression": main_expression, "main_gesture": main_gesture, "cue_level": cue_level, "cue_score": cue_score}
+    return {"frames": frame_count, "person_percentage": person_percentage, "face_percentage": face_percentage, "main_expression": main_expression, "main_gesture": main_gesture, "cue_level": cue_level, "cue_score": cue_score}       
