@@ -1,0 +1,35 @@
+AI INTERVIEW COACH — SHORT DEMO GUIDE
+
+1. PROBLEM AND PURPOSE
+"Many candidates know their subject but do not have an accessible way to practise both answer content and visible delivery before a real interview. AI Interview Coach provides guided questions, instant answer feedback, and video-based practice cues."
+
+2. START THE DEMO
+- Point to the four colourful steps.
+- Choose a field, question, and confidence level from the sidebar.
+
+3. MOCK INTERVIEW
+- Enter an answer and click Check My Answer.
+- Explain the relevance score, key ideas, strengths, missing ideas, and sample answer.
+
+4. VIDEO COACH
+- Both live webcam and uploaded video are supported.
+- YOLO detects the person; MediaPipe supplies face and hand landmarks.
+- The results are visible cues only, not a person's true emotion.
+
+5. SUMMARY
+- Show the overall practice score and next goal.
+- This is a coaching score, not a recruitment decision.
+
+6. TERMS
+- NLP: Natural Language Processing — analyses human language.
+- TF-IDF: Term Frequency–Inverse Document Frequency — gives words numerical importance.
+- Cosine Similarity: measures how similar two text vectors are.
+- YOLO: You Only Look Once — detects the person in video frames.
+- OpenCV: Open Source Computer Vision Library — processes video frames.
+- MediaPipe: supplies face and hand landmarks.
+
+7. IF ASKED ABOUT THE TUTOR'S CODE
+"I followed the Ultralytics YOLO and OpenCV pattern from the supplied notebooks: load YOLO, pass each frame to the model, and use results[0].plot(). The tutor did not provide Streamlit, emotion, gesture, or answer-scoring exercises, so I added those parts to complete the project."
+
+8. CLOSING
+"The project combines answer quality and delivery practice in one supportive tool. Future improvements could include speech-to-text and models trained on suitable emotion or gesture datasets."
