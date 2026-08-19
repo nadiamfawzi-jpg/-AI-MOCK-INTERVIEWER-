@@ -162,16 +162,3 @@ with tab3:
         st.markdown("#### 🎯 Next practice goal")
         st.write(summary["next_step"])
         st.caption("The score supports practice only and must not be used for recruitment decisions.")
-
-with tab4:
-    st.subheader("🧩 How the AI Interview Coach Works")
-    st.markdown('<span class="pill">🧠 NLP</span><span class="pill">🔤 TF-IDF</span><span class="pill">📐 Cosine Similarity</span><span class="pill">👁️ YOLO</span><span class="pill">🎞️ OpenCV</span><span class="pill">🖐️ MediaPipe</span>', unsafe_allow_html=True)
-    st.markdown("""
-    - **🧠 NLP — Natural Language Processing:** helps the computer analyse the candidate's answer.
-    - **🔤 TF-IDF — Term Frequency–Inverse Document Frequency:** turns important answer words into numerical values.
-    - **📐 Cosine Similarity:** measures how similar the candidate and sample answer vectors are.
-    - **👁️ YOLO — You Only Look Once:** detects the candidate and uses the tutor's `results[0].plot()` pattern.
-    - **🎞️ OpenCV — Open Source Computer Vision Library:** reads and processes video frames.
-    - **🖐️ MediaPipe:** provides the face and hand landmarks needed for the extra expression and gesture feature.
-    """)
-    st.info("📚 **Tutor alignment:** YOLO, OpenCV, frame prediction, and annotated output follow the supplied notebooks. Streamlit, NLP scoring, MediaPipe, and browser-video support are project additions.")
