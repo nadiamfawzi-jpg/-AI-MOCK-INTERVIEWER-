@@ -16,14 +16,14 @@ AI Interview Coach is a Streamlit prototype that helps candidates practise commo
 
 | Item | Full name | Purpose | Source |
 |---|---|---|---|
-| NLP | Natural Language Processing | Analyses the written answer | Project addition |
-| TF-IDF | Term Frequency–Inverse Document Frequency | Converts important words into numbers | Project addition |
-| Cosine Similarity | Vector similarity measurement | Compares candidate and sample answers | Project addition |
-| YOLO | You Only Look Once | Detects a person and annotates video | Tutor notebooks |
-| OpenCV | Open Source Computer Vision Library | Reads and processes frames | Tutor notebooks |
-| MediaPipe | Face and hand landmark framework | Supports expression and gesture rules | Project addition |
-| Streamlit | Python web-app framework | Builds the interface | Project addition |
-| streamlit-webrtc | Browser video component | Connects webcam video to Streamlit | Project addition |
+| NLP | Natural Language Processing | Analyses the written answer | 
+| TF-IDF | Term Frequency–Inverse Document Frequency | Converts important words into numbers |
+| Cosine Similarity | Vector similarity measurement | Compares candidate and sample answers | 
+| YOLO | You Only Look Once | Detects a person and annotates video | 
+| OpenCV | Open Source Computer Vision Library | Reads and processes frames | 
+| MediaPipe | Face and hand landmark framework | Supports expression and gesture rules | 
+| Streamlit | Python web-app framework | Builds the interface | 
+| streamlit-webrtc | Browser video component | Connects webcam video to Streamlit |
 
 ## 🛡️ Limitation
 
