@@ -14,7 +14,7 @@ AI Interview Coach is a Streamlit prototype that helps candidates practise commo
 
 ## 🧩 Models and libraries
 
-| Item | Full name | Purpose | Source |
+| Item | Full name | Purpose | 
 |---|---|---|---|
 | NLP | Natural Language Processing | Analyses the written answer | 
 | TF-IDF | Term Frequency–Inverse Document Frequency | Converts important words into numbers |
