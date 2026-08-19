@@ -64,7 +64,7 @@ with st.sidebar:
     st.caption("💡 Practice tool only — not a hiring decision system.")
 
 selected = field_questions.iloc[question_number]
-tab1, tab2, tab3, tab4 = st.tabs(["💬 Mock Interview", "🎥 Video Coach", "📊 My Summary", "🧩 How It Works"])
+tab1, tab2, tab3, tab4 = st.tabs(["💬 Mock Interview", "🎥 Video Coach", "📊 My Summary"])
 
 with tab1:
     st.subheader("💼 " + field + " Mock Interview")
